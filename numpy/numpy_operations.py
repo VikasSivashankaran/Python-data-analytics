@@ -107,7 +107,7 @@ dtypes = [('name', 'S10'), ('grad_year', int), ('cgpa', float)]
 values = [('Hrithik', 2009, 8.5), ('Ajay', 2008, 8.7),
           ('Pankaj', 2008, 7.9), ('Aakash', 2009, 9.0)]
 
-Creating array
+# Creating array
 arr = np.array(values, dtype=dtypes)
 print("\nArray sorted by names:\n",
       np.sort(arr, order='name'))
